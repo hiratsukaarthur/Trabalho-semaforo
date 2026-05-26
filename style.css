@@ -1,0 +1,37 @@
+.container{
+    position: relative;
+    width: 300px;
+}
+
+img{
+    width: 300px;
+}
+
+.luz{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 130px;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.ativo{
+    opacity: 1;
+}
+
+#vermelho{
+    top: 35px;
+    background-color: red;
+}
+
+#amarelo{
+    top: 115px;
+    background-color: yellow;
+}
+
+#verde{
+    top: 190px;
+    background-color: green;
+}
